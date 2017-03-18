@@ -1,0 +1,82 @@
+/* Extra Small Devices, Phones */ 
+@media screen and (max-width: 420px){
+header {
+    font-size: 2rem;
+}
+.note {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+input[type="date"]{
+    margin-top: 5px;
+}
+.container {
+    width: 100%;
+}
+label span{
+   display: block;
+   margin-right: 1rem;
+}
+textarea {
+    padding: 1rem 1rem 0px 0px;  
+}}
+
+/* Small Devices, Tablets */
+@media screen and (min-width:421px) and (max-width: 650px){
+header {
+    font-size: 2rem;
+}
+.note {
+    width: 50%;
+}
+label span{
+   display: block;
+   margin-right: 1rem;
+}
+textarea {
+    padding: 1rem 1rem 0px 0px;  
+}}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width:651px) and (max-width: 970px){
+.note {
+    width: 33.3%;
+}
+.submit {
+    display: block;
+}
+label span{
+   display: block;
+   margin-right: 1rem;
+}
+textarea {
+    padding: 1rem 1rem 0px 0px;  
+}}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width:971px) and (max-width: 1200px){
+.note {
+    width: 25%;
+}}
+
+/* Large Devices, Wide Screens */
+@media screen and (min-width:1201px) and (max-width: 1800px){
+.note {
+    width: 20%;
+}}
+
+/* Extra Large Devices, Wide Screens */
+@media screen and (min-width:1801px){
+.note {
+    width: 16.6%;
+}}
+
+@media print {
+    form{
+        display: none;
+    }
+    .noteContent {
+        width: 250px;
+        border: 1px solid black;
+}}
