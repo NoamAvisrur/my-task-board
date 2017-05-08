@@ -1,34 +1,35 @@
 body {
     margin: 1rem;
     background-image: url(img/tile.jpg);
-    font-family: 'Indie Flower', cursive;
+    //background-size: 100%;
+    font-family: 'Rum Raisin', sans-serif;
 }
 header {
-    margin: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
+    background-color: #00BCD4;
+    box-shadow: 2px 2px 4px;
 }
 .container {
-    width: 70%;
-    margin: 0 auto;
+    display: flex;
 }
 form {
-    height: 100%;
-    border-radius: 15px;
-    background: radial-gradient(ellipse at center, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
-    margin-bottom: 1rem;
-    box-shadow: 3px 3px 10px;
-    text-align: center
+    height: 450px;
+    text-align: center;
+    width: 25%;
+    background-color: coral;
+    box-shadow: 2px 2px 4px;
+    padding: 1rem 0rem 1rem 0rem;
 }
 textarea {
-    width: 60%;
-    font-family: 'Indie Flower', cursive;
+    width: 90%;
+    font-family: 'Rum Raisin', sans-serif;
     font-size: 1rem;
     resize: none;
     display: block;
     overflow-x: hidden;
-    border-radius: 10px;
     margin: 0 auto;
 }
 textarea::-webkit-input-placeholder {
@@ -39,35 +40,65 @@ form label:nth-child(2) {
     padding-right: 1rem;
 }
 label span {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Rum Raisin', sans-serif;
     color: #1a4791;
     display: block;
-    font-weight: bold;
     color: black;
 }
 input[type="date"],
 input[type="time"] {
     font-size: 1rem;
-    border-radius: 5px;
     border: 1px solid #aaa;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    
 }
 .submit {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Rum Raisin', sans-serif;
     font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
     margin: 0 auto;
     display: block;
+    background-color: #00BCD4;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    width: 60%;
+    width: 90%;
+}
+.note_example {
+    width: 30%;
+    height: 100px;
+    background-color: #ded584;
+    margin: 0 auto;
+    padding-top: 1rem;
+    transform: rotate(-8deg);
+}
+.task_example{
+    display: block;
+    border-radius: 3px;
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: #f3e881; 
+    transform: rotate(-1deg);
+}
+.pin_example{
+    width: 10px;
+    height: 10px;
+    background-color: #ca0303;
+    position: absolute;
+    border-radius: 50%;
+    left: 45%;
+    top: 2%;
+    box-shadow: 2px 2px 4px;
 }
 .note_container {
     display: flex;
     flex-wrap: wrap;
+    width: 75%;
 }
 .note {
     height: 200px;
+    width: 25%;
     margin-bottom: 3rem;
     position: relative;
     opacity: 1;
@@ -79,7 +110,7 @@ input[type="time"] {
     background-color: #ca0303;
     position: absolute;
     border-radius: 50%;
-    left: 40%;
+    left: 45%;
     top: 2%;
     box-shadow: 2px 2px 4px;
 }
@@ -109,9 +140,8 @@ input[type="time"] {
     height: 100%;
     padding-top: 2rem;
     background-color: #ded584;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    box-shadow: 3px 3px 5px;
+    box-shadow: 2px 2px 4px;
     margin: 0 auto;
 }
 .task {
@@ -124,16 +154,16 @@ input[type="time"] {
     overflow-y: auto;
     overflow-x: auto;
     white-space: pre;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Rum Raisin', sans-serif;
 }
 .date {
     margin-left: 1rem;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Rum Raisin', sans-serif;
     display: block;
 }
 .time {
     margin-left: 1rem;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Rum Raisin', sans-serif;
 }
 .fade-out {
     opacity: 0;
